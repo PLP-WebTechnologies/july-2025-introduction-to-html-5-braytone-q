@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic SEO Metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A sample HTML5 webpage demonstrating semantic structure, accessibility, and SEO best practices.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, web development">
+  <meta name="author" content="Your Name">
+  <title>HTML5 Accessibility & SEO Example</title>
+</head>
+<body>
+  
+  <!-- Page Header -->
+  <header role="banner">
+    <h1>Building Accessible & SEO-Friendly Websites</h1>
+    <p>Using semantic HTML5 for better usability and discoverability</p>
+    
+    <!-- Main Navigation -->
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" accesskey="a">About</a></li>
+        <li><a href="#features" accesskey="f">Features</a></li>
+        <li><a href="#contact" accesskey="c">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="content" role="main">
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page demonstrates the use of semantic HTML5 elements to improve structure, accessibility, and SEO performance.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Why Semantic HTML Matters</h2>
+      
+      <article>
+        <h3>Improved Accessibility</h3>
+        <p>Screen readers and assistive technologies can navigate pages more effectively when semantic tags are used properly.</p>
+      </article>
+      
+      <article>
+        <h3>Better SEO</h3>
+        <p>Search engines understand your content’s structure, which can help improve search rankings and visibility.</p>
+      </article>
+      
+      <article>
+        <h3>Cleaner Code</h3>
+        <p>Semantic HTML makes your code easier to read, maintain, and extend.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post" aria-label="Contact Form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required aria-required="true"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required aria-required="true"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br><br>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
